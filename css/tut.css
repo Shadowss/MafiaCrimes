@@ -1,0 +1,49 @@
+.tut_pop_out{
+position: absolute;
+left: 100px;
+top: 100px;
+width: 519px;
+height: 432px;
+background-image: url(../tut_images/screener.png);
+cursor: move;
+}
+
+.tut_text{
+top: 100px;
+left: 50px;
+width: 420px;
+}
+
+.tut_next{
+position: absolute;
+top: 418px;
+left: 280px;
+}
+
+.tut_pre{
+position: absolute;
+left: 14px;
+top: 418px;
+}
+
+.tut_exit{
+position: absolute;
+left: 181px;
+top: 418px;
+}
+
+.tut_r{
+width: 240px;
+float: left;
+padding: 5px;
+}
+
+.tut_l{
+width: 150px;
+float: left;
+border: 0px solid rgb(78,132,94);
+}
+
+.tut_pre{position:absolute; left:14px; bottom:18px;}
+.tut_exit{position:absolute;left:170px; bottom:18px;}
+.tut_next{position:absolute;left:280px; bottom:18px;}

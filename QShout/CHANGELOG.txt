@@ -1,0 +1,27 @@
+Change logs in v1.1.8 (28/09/2010):
+============
+i) Changes in jQuery
+- Selector bug. Changed '$('input[type=text]').keypress(function(e)' to
+  '$('#qName, #qUrl, #qMessage').keypress(function(e){'
+
+Change logs in v1.1.7 (27/09/2010):
+============
+i) Changes in PHP.
+- Adding 'Parse http/https string and turn it into activated hyperlink' which is missing in v1.1.4
+- Adding quick check for data before JSON. (For those who upgrade from v1.0, with current data)
+
+ii) Changes in jQuery
+- Adding 'Enter' key for submitting chat.
+
+Change logs in v1.1.4 (24/09/2010):
+============
+i) Changes in PHP.
+- Rewrite PHP in OOP.
+- Using PHP's PDO for database queries.
+- Change date format to (yyyy-mm-dd h:m AM/PM).
+- XSS issue is solved.
+
+ii) Changes in jQuery
+- Fixed $("#qFooter: input") error to support jQuery v1.4.2.
+- Added $.trim() to remove spaces for inputs and returned 'done'.
+- Added Encode/Decode for double quotes in JSON data.

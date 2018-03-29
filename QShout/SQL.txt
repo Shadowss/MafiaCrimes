@@ -1,0 +1,28 @@
+Create a database and run the following MySQL statements before using QShout:
+
+CREATE TABLE `tbl_qshout` (
+  `chat_id` int(11) NOT NULL auto_increment,
+  `user` varchar(30) collate latin1_general_ci NOT NULL,
+  `message` text collate latin1_general_ci NOT NULL,
+  `url` varchar(255) collate latin1_general_ci default NULL,
+  `date_post` datetime NOT NULL,
+  `ip` varchar(100) collate latin1_general_ci NOT NULL,
+  PRIMARY KEY  (`chat_id`)
+);
+
+
+CREATE TABLE `tbl_smiley` (
+  `smiley_id` int(11) NOT NULL auto_increment,
+  `smiley` char(10) collate latin1_general_ci NOT NULL,
+  `desc` varchar(100) collate latin1_general_ci NOT NULL,
+  `icon_name` varchar(50) collate latin1_general_ci NOT NULL,
+  PRIMARY KEY  (`smiley_id`)
+);
+
+
+INSERT INTO `tbl_smiley` VALUES (1, ':)', 'Smile', 'smile.png');
+INSERT INTO `tbl_smiley` VALUES (2, ':D', 'Laugh', 'laugh.png');
+INSERT INTO `tbl_smiley` VALUES (3, ':(', 'Sad', 'sad.png');
+INSERT INTO `tbl_smiley` VALUES (4, ';)', 'Wink', 'wink.png');
+INSERT INTO `tbl_smiley` VALUES (5, ':@', 'Angry', 'angry.png');
+

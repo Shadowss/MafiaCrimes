@@ -1,0 +1,134 @@
+
+
+/* ATTACK PAGE */
+
+#attackPage {
+	width: 810px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+#attackPage .help_tutorial {
+	width: 810px;
+	border: 1px solid #211a12;
+	background-color: #1a130f;
+}
+#attackPage table {
+	width: 100%;
+}
+#attackPage h3 {
+	background: none;
+	text-transform: normal;
+	font-size: 20px;
+}
+#attackPage fieldset {
+	margin: 3px;
+	border: 1px solid #333;
+	padding: 2px;
+}
+#attackPage legend {
+	border: 1px solid #333;
+	padding: 0 6px;
+	margin-left: 25px;
+}
+#attackPage p {
+	padding: 3px 0;
+}
+#attackPage ul {
+	list-style-position: inside;
+}
+
+#attackPage .playerIMG,
+#attackPage .playerIMG img{
+	width: 130px;
+}
+#attackPage .playerIMG img + img{
+	margin-top: 36px;
+}
+#attackPage .rankIMG {
+	width: 30px;
+	border: 1px solid #333;
+}
+#attackPage .playerData {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 80px;
+}
+#attackPage .playerData.second {
+	text-align: right;
+}
+#attackPage .healthBar {
+	background-color: #666;
+	width: 100px;
+	margin-top: 6px;
+}
+#attackPage .playerData.second .healthBar {
+	margin-left: auto;
+	marign-right: 0;
+}
+#attackPage .healthBar div {
+	height: 6px;
+	background-color: #0f0;
+}
+#attackPage #output {
+	margin: 10px;
+	border: 1px solid #333;
+	background-color: #260000;
+	height: 260px;
+	overflow: auto;
+	padding: 3px;
+}
+#attackPage #output h3{
+	font-size: 14px;
+	padding: 6px;
+}
+#attackPage #output td{
+	width: 50%;
+	padding-left: 40px;
+}
+#attackPage .bold{
+	font-size: 13px;
+	font-weight: bold;
+}
+#attackPage .red{
+	color: #b00;
+}
+#attackPage .green{
+	color: #0a0;
+}
+#attackPage .gold{
+	color: #957034;
+}
+#attackPage .italic{
+	font-style: italic;
+}
+#attackPage .number{
+	color: #ddd;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 11px;
+}
+#attackPage #panelContainer{
+	position: absolute;
+	top: -10000px;
+	left: -10000px;
+}
+.yui-skin-sam .yui-button {
+	background:transparent url(../images/yui.sprite.png) repeat-x scroll 0 0;
+	border-color: #241c13;
+}
+.yui-skin-sam .yui-button .first-child{
+	border-color: #241c13;
+}
+.yui-skin-sam .yui-button button, 
+.yui-skin-sam .yui-button a {
+	color: #ddd;
+}
+.yui-skin-sam .yui-button-hover {
+	background-position: 0 -1300px;
+}
+.yui-skin-sam .yui-button-active {
+	background-position: 0 -1700px;
+}
+
+/* END OF ATTACK PAGE */

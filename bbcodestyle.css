@@ -1,0 +1,138 @@
+<style>
+body { behavior:url("csshover3.htc"); }
+
+    .bbcode_hover
+    {
+     background-image: url('icons/bold.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover:hover
+    {
+     background-image: url('icons/bold_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+
+    .bbcode_hover1
+    {
+     background-image: url('icons/italics.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover1:hover
+    {
+     background-image: url('icons/italics_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+
+    .bbcode_hover2
+    {
+     background-image: url('icons/underline.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover2:hover
+    {
+     background-image: url('icons/underline_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover3
+    {
+     background-image: url('icons/insert_hyperlink.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover3:hover
+    {
+     background-image: url('icons/insert_hyperlink_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+
+    .bbcode_hover4
+    {
+     background-image: url('icons/strikethrough.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover4:hover
+    {
+     background-image: url('icons/strikethrough_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+
+    .bbcode_hover5
+    {
+     background-image: url('icons/insert_picture.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover5:hover
+    {
+     background-image: url('icons/insert_picture_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+
+    .bbcode_hover6
+    {
+     background-image: url('icons/justify_center.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover6:hover
+    {
+     background-image: url('icons/justify_center_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+
+    .bbcode_hover7
+    {
+     background-image: url('icons/forecolor.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+    .bbcode_hover7:hover
+    {
+     background-image: url('icons/forecolor_on.gif');
+     background-color: transparent;
+     height: 20px;
+     width: 20px;
+     border: 0px;
+    }
+  </style>
